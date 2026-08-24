@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> schedule</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="css/img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/team.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="./css/img/logo.png" class="logo" alt="logo">
+
+                <div class="logo-text ms-2">
+                    <h4>TECHCONF</h4>
+                    <p>AI & Technology</p>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./projetct.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projetct.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./speakers.html">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./SCHEDULE.html">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Ticket.html">Ticket</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projetct.html">Venue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projetct.html">Statistics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <a href="./support.html" class="btn btn-register">
+                    Support
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="ai">
+
+        <div class="overlay"></div>
+
+        <div class="conteni my-3 pe-5">
+            <h1>Register Now</h1>
+
+            <h2>Be Part of the Event</h2>
+
+            <p>
+                Join the biggest technology conference and connect with
+                industry leaders, innovators, and AI experts from around the world.
+            </p>
+        </div>
+    </section>
+    <section class="schedule" id="schedule">
+        <h4>EVENT SCHEDULE</h4>
+        <h1 class="text-light">Explore What's Happening</h1>
+        <p>
+            Discover the exciting sessions, workshops and networking opportunities
+            planned for our conference.
+        </p>
+        <div class="days">
+
+            <div class="days">
+                <button id="btn1" class="active" onclick="showDay(1)">Day 1</button>
+                <button id="btn2" onclick="showDay(2)" >Day 2</button>
+            </div>
+        </div>
+        <div class="timeline">
+            <div class="card reveal">
+                <h3>09:00 AM</h3>
+                <i class="fa-solid fa-flag-checkered"></i>
+                <h2>Opening Ceremony</h2>
+                <p>
+                    Welcome speech and event introduction.
+                </p>
+            </div>
+            <div class="card reveal">
+
+                <h3>10:30 AM</h3>
+
+                <i class="fa-solid fa-microphone"></i>
+
+                <h2>Keynote Talk</h2>
+
+                <p>
+                    The future of technology and innovation.
+                </p>
+
+            </div>
+
+            <div class="card reveal">
+
+                <h3>12:00 PM</h3>
+
+                <i class="fa-solid fa-mug-hot"></i>
+
+                <h2>Lunch Break</h2>
+
+                <p>
+                    Enjoy lunch and networking.
+                </p>
+
+            </div>
+
+            <div class="card reveal">
+
+                <h3>01:30 PM</h3>
+
+                <i class="fa-solid fa-chalkboard-user"></i>
+
+                <h2>Panel Discussion</h2>
+
+                <p>
+                    Experts discuss AI and future trends.
+                </p>
+
+            </div>
+
+            <div class="card reveal">
+
+                <h3>03:00 PM</h3>
+
+                <i class="fa-solid fa-code"></i>
+
+                <h2>Workshop</h2>
+
+                <p>
+                    Hands-on coding and learning session.
+                </p>
+
+            </div>
+
+            <div class="card reveal">
+
+                <h3>05:00 PM</h3>
+
+                <i class="fa-solid fa-users"></i>
+
+                <h2>Networking</h2>
+
+                <p>
+                    Meet speakers and other attendees.
+                </p>
+
+            </div>
+
+        </div>
+        <section class="confirm-section">
+
+            <button class="confirm-btn" onclick="window.location.href='Payment.html'">
+                Confirm Your Reservation
+            </button>
+
+        </section>
+    </section>
+
+
+
+    <footer class="footer py-5">
+        <div class="container">
+
+            <div class="row gy-4">
+
+                <!-- Logo -->
+                <div class="col-lg-4">
+
+                    <img src="./css/img/logo.png" class="footer-logo mb-3" alt="Logo">
+
+                    <h4 class="mb-3 text-info">TECHCONF</h4>
+
+                    <p>
+                        The International Conference on Future Technology and Innovation,
+                        bringing together experts and innovators from around the world.
+                    </p>
+
+                    <div class="icons mt-4">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 text-info">
+
+                    <h5 class="text-info">Quick Links</h5>
+
+                    <ul class="list-unstyled">
+
+                         <li><a href="./projetct.html">Home</a></li>
+                            <li><a href="./projetct.html">About</a></li>
+                            <li><a href="./speakers.html">Speakers</a></li>
+                            <li><a href="./SCHEDULE.html">Schedule</a></li>
+                            <li><a href="./contact.html">contact</a></li>
+                    </ul>
+
+                </div>
+
+                <!-- Topics -->
+                <div class="col-lg-3 text-info ">
+
+                    <h5 class="text-info">Topics</h5>
+
+                    <ul class="list-unstyled">
+
+                        <li>Artificial Intelligence</li>
+                        <li>Cybersecurity</li>
+                        <li>Cloud Computing</li>
+                        <li>Internet of Things</li>
+                        <li>Data Science</li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Contact -->
+                <div class="col-lg-3 text-info">
+
+                    <h5 class="text-info">Support</h5>
+
+                    <ul class="list-unstyled">
+
+                        <li>Help Center</li>
+                        <li>Terms & Conditions</li>
+                        <li>privacy Policy</li>
+                        <li>Refund Policy</li>
+                        <li>Contact US</li>
+
+                    </ul>
+   
+                </div>
+                <hr class="text-info">
+        <div class="text-center copy text-info">
+            © 2025 TECHCONF. All Rights Reserved.
+        </div>
+                </div>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
