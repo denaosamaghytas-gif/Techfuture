@@ -3110,7 +3110,7 @@ transform: scale(1.4);
 color: #5512c1;
 }
 
- .btns{
+ .btn-9{
       background: linear-gradient(135deg,#7243df,#5512c1);
       color: white !important;
       transition: 0.3s;
@@ -3118,7 +3118,7 @@ color: #5512c1;
       border: 1px solid transparent;
  }
 
- .btns:hover{
+ .btn-9:hover{
 transform: translateY(-12px);
  }
 
@@ -3188,7 +3188,7 @@ padding: 20px 70px;
     box-shadow: 0 10px 30px rgba(138, 43, 226, 0.2);
 }
 
-.btns {
+.btn-9 {
 display: flex;
 align-items: center;
 justify-content: center;
